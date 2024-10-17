@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="null"
+    tools:context=".FireActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_vid2"
+            android:layout_width="521dp"
+            android:layout_height="60dp"
+            android:text="CLICK HERE TO WATCH VIDEO ABOUT FIRE \nEMERGENCY PROCEDURES"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp1"
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_vid2"
+            app:srcCompat="@drawable/fp1" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp2"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="700dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp1"
+            app:srcCompat="@drawable/fp2" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp3"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp2"
+            app:srcCompat="@drawable/fp3" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp4"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp3"
+            app:srcCompat="@drawable/fp4" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp5"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp4"
+            app:srcCompat="@drawable/fp5" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp6"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp5"
+            app:srcCompat="@drawable/fp6" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp7"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp6"
+            app:srcCompat="@drawable/fp7" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp8"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp7"
+            app:srcCompat="@drawable/fp8" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/fp9"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fp8"
+            app:srcCompat="@drawable/fp9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

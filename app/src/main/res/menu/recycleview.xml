@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_button"
+        android:icon="@drawable/ic_ebutton"
+        android:title="BUTTON"/>
+
+    <item
+        android:id="@+id/bottom_call"
+        android:icon="@drawable/baseline_emergency_call"
+        android:title="CALL"/>
+    <item
+        android:id="@+id/bottom_contacts"
+        android:icon="@drawable/ic_emap"
+        android:title="MAP"/>
+    <item
+        android:id="@+id/bottom_aid"
+        android:icon="@drawable/ic_faid"
+        android:title="FIRST AID"/>
+
+
+</menu>

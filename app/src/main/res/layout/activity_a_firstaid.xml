@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="null">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AboutFirstAid" >
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f1"
+            android:layout_width="399dp"
+            android:layout_height="695dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_vid"
+            app:srcCompat="@drawable/f1" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f2"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="768dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f2" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f3"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="1480dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f3" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f4"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="2240dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f4" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f5"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="3016dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f5" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/f6"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginTop="3692dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f6" />
+
+        <Button
+            android:id="@+id/button_vid"
+            android:layout_width="521dp"
+            android:layout_height="60dp"
+            android:text="CLICK HERE TO WATCH VIDEO ABOUT FIRST AID"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

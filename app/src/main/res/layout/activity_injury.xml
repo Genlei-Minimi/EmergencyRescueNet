@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AidTips"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/btnFirstAid"
+        android:layout_width="453dp"
+        android:layout_height="78dp"
+        android:text=" ABOUT FIRST AID"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBLS"
+        android:layout_width="453dp"
+        android:layout_height="78dp"
+        android:text="BASIC LIFE SUPPORT"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFirstAid" />
+
+    <Button
+        android:id="@+id/btnCPR"
+        android:layout_width="453dp"
+        android:layout_height="78dp"
+        android:text="CARDIOPULMONARY RESUSCITATION (CPR)"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBLS" />
+
+    <Button
+        android:id="@+id/btnTreatment"
+        android:layout_width="453dp"
+        android:layout_height="78dp"
+        android:text="TREATMENT FOR WOUNDS, FRACTURES, AND BURNS"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCPR" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

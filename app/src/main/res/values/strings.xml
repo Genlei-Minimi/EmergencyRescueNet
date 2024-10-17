@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">RescueNet</string>
+    <string name="contactlist1"> University Clinic</string>
+    <string name="contactnum1"> 09619647071</string>
+    <string name="e_map"> ADMIN AND CTE BUILDING GROUND FLOOR</string>
+    <string-array name="emergency_contacts_list">
+        <item>Test</item>
+        <item>University Clinic</item>
+        <item>University DRRMO</item>
+        <item>City Disaster Risk Reduction and Management Office</item>
+        <item>City Health Office</item>
+        <item>Red Cross</item>
+        <item>San Pablo City Fire Station</item>
+        <item>San Pablo City Police Department</item>
+        <item>SPC General Hospital</item>
+    </string-array>
+
+    <string-array name="emergency_contacts_number">
+        <item>09393708070</item>
+        <item>09619647071</item>
+        <item>09491843143</item>
+        <item>(049) 8000405</item>
+        <item>(049) 5628116</item>
+        <item>(049) 5624025</item>
+        <item>(049) 5627645</item>
+        <item>(049) 5626474</item>
+        <item>(049) 5628116</item>
+    </string-array>
+
+    <string-array name="map">
+        <item>ADMIN AND CTE BUILDING GROUND FLOOR</item>
+        <item>ADMIN AND CTE BUILDING SECOND FLOOR</item>
+        <item>ALUMNI BUILDING GROUND FLOOR</item>
+        <item>ALUMNI BUILDING SECOND FLOOR</item>
+        <item>AMPHITHEATER</item>
+        <item>CBMA BUILDING GROUND FLOOR</item>
+        <item>CBMA BUILDING SECOND FLOOR</item>
+        <item>CCJE BUILDING</item>
+        <item>CCJE CRIME LAB</item>
+        <item>CCS BUILDING GROUND FLOOR</item>
+        <item>CCS SECOND FLOOR</item>
+        <item>CHMT BUILDING GROUND FLOOR</item>
+        <item>CHMT BUILDING SECOND FLOOR</item>
+        <item>CIT BUILDING</item>
+        <item>COE BUILDING GROUND FLOOR</item>
+        <item>COE BUILDING SECOND FLOOR</item>
+        <item>COE BUILDING THIRD FLOOR</item>
+        <item>GAD OFFICE</item>
+        <item>LIBRARY GROUND FLOOR</item>
+        <item>LIBRARY SECOND FLOOR</item>
+        <item>MULTI-TECH BUILDING GROUND FLOOR</item>
+        <item>MULTI-TECH BUILDING SECOND FLOOR</item>
+        <item>MULTI-TECH BUILDING THIRD FLOOR</item>
+        <item>MULTI-TECH BUILDING FOURTH FLOOR</item>
+        <item>MULTI-TECH BUILDING ROOF DECK</item>
+        <item>STOREY GENERAL EDUCATION BUILDING GROUND FLOOR LEFT WING</item>
+        <item>STOREY GENERAL EDUCATION BUILDING SECOND FLOOR LEFT WING</item>
+        <item>STOREY GENERAL EDUCATION BUILDING GROUND FLOOR RIGHT WING</item>
+        <item>STOREY GENERAL EDUCATION BUILDING SECOND FLOOR RIGHT WING</item>
+        <item>STUDENT SERVICES COUNCIL OFFICE</item>
+        <item>UNIVERSITY GYMNASIUM GROUND FLOOR</item>
+        <item>UNIVERSITY GYMNASIUM SECOND FLOOR</item>
+        <item>UNIVERSITY HOSTEL GROUND FLOOR</item>
+        <item>UNIVERSITY HOSTEL SECOND FLOOR</item>
+
+    </string-array>
+
+</resources>

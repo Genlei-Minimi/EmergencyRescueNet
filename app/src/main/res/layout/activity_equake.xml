@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="null"
+    tools:context=".EQActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_vid1"
+            android:layout_width="521dp"
+            android:layout_height="60dp"
+            android:text="CLICK HERE TO WATCH VIDEO ABOUT EARTHQUAKE \nSAFETY PRECAUTIONS"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq1"
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/button_vid1"
+            app:srcCompat="@drawable/eq1" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq2"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="700dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq1"
+            app:srcCompat="@drawable/eq2" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq3"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq2"
+            app:srcCompat="@drawable/eq3" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq4"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq3"
+            app:srcCompat="@drawable/eq4" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq5"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq4"
+            app:srcCompat="@drawable/eq5" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq6"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq5"
+            app:srcCompat="@drawable/eq6" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq7"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq6"
+            app:srcCompat="@drawable/eq7" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq8"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq7"
+            app:srcCompat="@drawable/eq8" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq9"
+            android:layout_width="match_parent"
+            android:layout_height="761dp"
+            android:layout_marginTop="764dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq8"
+            app:srcCompat="@drawable/eq9" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/eq10"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:layout_marginTop="764dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/eq9"
+            app:srcCompat="@drawable/eq10" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
